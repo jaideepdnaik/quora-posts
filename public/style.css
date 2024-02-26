@@ -1,0 +1,60 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    /* Change 'Poppins' to your desired font */
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    color: maroon;
+    text-align: center;
+}
+
+.post {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.user {
+    font-style: italic;
+    color: #555;
+}
+
+.content {
+    color: #333;
+}
+
+.btn {
+    display: inline-block;
+    background-color: maroon;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #800000;
+}
+
+.link {
+    color: maroon;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
